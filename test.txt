@@ -10,4 +10,14 @@ CloudFront
     Config 2
     Config 3
 
-Test
+GrupoSeguridad
+    Config 2
+    Config 3
+
+EC2
+    Config 1
+    Config 2
+
+VPCs
+    Config 1
+    Config 2
