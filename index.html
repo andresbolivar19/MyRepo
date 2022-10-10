@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Selectores pero funcionan igual para todos 
+        No se puede diferenciar si por ejemplo hay varios div*/
+        body{
+            background-image: url("./images/aws_logo_smile_1200x630.png");
+            color: cadetblue;
+        }
+
+        /* Permite dar estilo por id */
+        #div1{
+            color: aqua;
+        }
+
+        /* Permite dar estilo por clase */
+        .class2{
+            color: aquamarine;
+        }
+
+        /* Combinacion, permite dar estilo por clase, id y b */
+        #div3 .class1 b {
+            color: rosybrown;
+        }
+
+        /* Cuando pase por encima cambia a rojo */
+        #div1:hover {
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Hello world, esto es un h1</h1>
+
+    <div id="div1" class="class1">
+        Division 1
+    </div>
+
+    <div id="div2" class="class2">
+        Division 2
+    </div>
+
+    <div id="div3" >
+        Division 1
+        <p class="class1">
+            Parrafo 1 dentro de div 2
+        </p>
+        <p class="class1">
+            <b>
+                Parrafo 2 dentro de div 2 y un b
+            </b>
+        </p>
+    </div>
+
+
+    <p>
+        Parrafro 
+    </p>
+
+    <h2>Link Google en la misma pagina</h2>
+    <a href="http://www.google.com.co"> google en la misma pestaña</a>
+    
+    <h2>Link Google en otra pagina</h2>
+    <a href="http://www.google.com.co" target="_blank"> google en otra pestaña</a>
+    
+    <h2>Ir a archivo local</h2>
+    <a href="README.md"> Ir a archivo</a>
+    
+    <h2>Tabla 1</h2>
+    <table border="1">
+        <tr>
+            <td>Col 1</td>
+            <td>Col 2</td>
+        </tr>
+        <tr>
+            <td>Col 3</td>
+            <td>Col 4</td>
+        </tr>
+    </table>
+    
+    <h2>Items con punto</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    
+    <h2>Items con numeros</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <h2>Items horizontales</h2>
+    <ol>
+        <l1>Item 1</l1>
+        <l1>Item 2</li>
+        <l1>Item 3</l1>
+        <l1>Item 4</l1>
+        <l1>Item 5</l1>
+    </ol>
+
+    <h2>Imagen de internet</h2>
+    <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" width="200" alt="Imagen Not found">
+
+    <h2>Form Formulario</h2>
+    <form action="">
+        <h3>Label type text</h3>
+        <label for="">Name</label>
+        <input type="text">
+
+        <h3>Label type lists</h3>
+        <label for="">Category</label>
+        <select name="" id="">
+            <option value="">Option 1</option>
+            <option value="">Option 2</option>
+        </select>
+
+        <h3>Button</h3>
+        <button>Button</button>
+
+        <h3>Button type submit</h3>
+        <button type="submit">Submit</button>
+        
+    </form>
+
+</body>
+
+</html>
