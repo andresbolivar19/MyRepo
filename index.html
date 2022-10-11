@@ -11,6 +11,47 @@
     <!-- CSS only Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <script>
+        
+        //Alert popup
+        //alert('Alert script')
+
+        //Alert popup, allow typing text or numbers
+        //let value = prompt("Gime me a number: ");
+        //alert("You typed " + value);
+        
+        // Diferents types of declare variables and best way its with let
+        var a = "TestVarConsoleLog1";
+        console.log('Value :>> ', a);
+        let b = "TestVarConsoleLog2";
+        console.log('Value :>> ', b);
+        c = "TestVarConsoleLog3";
+        console.log('Value :>> ', c);
+        //Its uses when the values not change any more
+        const d = "TestVarConsoleLog4";
+        console.log('Value :>> ', d);
+
+        // Alt + 96 = ``
+        let e = `
+        Texto con "espacios"
+        y salto de lineas
+        `;
+        
+        console.log('Value :>> ', e);
+        console.log('Value length:>> ', e.length);
+        console.log('Value MAYUS:>> ', e.toUpperCase());
+
+        // Arrays
+        arr = [9,8,7,6,5,4,3,2,1];
+        console.log('Array :>> ', arr);
+
+        // For to show all items from array
+        arr.forEach(element => {
+            console.log('Value :>> ', element);
+        });
+
+    </script>
 
 </head>
 
@@ -112,6 +153,14 @@
 
         <h3>Button type submit</h3>
         <button type="submit">Submit</button>
+
+        <h3>Button New</h3>
+        <form action="">
+            <label for="">Name</label> <br>
+            <input type="text">
+    
+            <input type="button" value="Save!">
+        </form>
 
         <h3>Button bootstrap</h3>
         <button class="btn btn-info" type="submit">Submit</button>
