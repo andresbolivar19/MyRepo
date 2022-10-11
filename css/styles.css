@@ -1,0 +1,26 @@
+        /* Selectores pero funcionan igual para todos 
+        No se puede diferenciar si por ejemplo hay varios div*/
+        body{
+            background-image: url("./images/aws_logo_smile_1200x630.png");
+            color: cadetblue;
+        }
+
+        /* Permite dar estilo por id */
+        #div1{
+            color: aqua;
+        }
+
+        /* Permite dar estilo por clase */
+        .class2{
+            color: aquamarine;
+        }
+
+        /* Combinacion, permite dar estilo por clase, id y b */
+        #div3 .class1 b {
+            color: rosybrown;
+        }
+
+        /* Cuando pase por encima cambia a rojo */
+        #div1:hover {
+            color: red;
+        }
